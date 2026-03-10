@@ -33,10 +33,10 @@ spring:
               enable: true
 
 twilio:
-  accountSid:
-  authToken:
-  from:
-  to:
+  accountSid: ${ACCOUNT_SID}
+  authToken: ${AUTH_TOKEN}
+  from: ${TWILIO_FROM}
+  to: ${TWILIO_TO}
 
 server:
   port: 8083
